@@ -2,17 +2,19 @@
   <div>
     <section class="issue#5"></section>
     <p>{{ windowTop }}</p>
-    <section v-for="issue in issues" :key="issue.title"></section>
+    <IssueSection v-for="issue in issues" :key="issue.title" :issue="issue"/>
 
 </div>
 </template>
 
 <script>
 
+import IssueSection from '../components/IssueSection';
 import issuesJson from '../data/issues.json';
 
 export default {
   components: {
+    IssueSection
   },
   data() {
     return {
@@ -32,11 +34,5 @@ export default {
 </script>
 
 <style lang="scss">
-
-section {
-  border: 1px solid black;
-  height: 812px;
-  scroll-snap-align: start;
-}
 
 </style>

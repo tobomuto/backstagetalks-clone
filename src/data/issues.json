@@ -1,0 +1,32 @@
+[
+    {
+        "id": 5,
+        "title": "Issue5",
+        "is-sold-out": false,
+        "background": "topaz"
+    },
+    {
+        "id": 4,
+        "title": "Issue4",
+        "is-sold-out": false,
+        "background": "orange"
+    },
+    {
+        "id": 3,
+        "title": "Issue3",
+        "is-sold-out": false,
+        "background": "yellow"
+    },
+    {
+        "id": 2,
+        "title": "Issue2",
+        "is-sold-out": false,
+        "background": "blue"
+    },
+    {
+        "id": 1,
+        "title": "Issue1",
+        "is-sold-out": true,
+        "background": "red"
+    }
+]

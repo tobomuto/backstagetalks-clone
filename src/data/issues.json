@@ -2,31 +2,41 @@
     {
         "id": 5,
         "title": "Issue5",
-        "is-sold-out": false,
-        "background": "topaz"
+        "isAvailable": true,
+        "background": "topaz",
+        "cover": "backstagetalks_cover_issue_5",
+        "link": "https://www.bruil.info/product/backstage-talks-5/"
     },
     {
         "id": 4,
         "title": "Issue4",
-        "is-sold-out": false,
-        "background": "orange"
+        "isAvailable": true,
+        "background": "orange",
+        "cover": "backstagetalks_cover_issue_4",
+        "link": "https://www.bruil.info/product/backstage-talks-4/"
     },
     {
         "id": 3,
         "title": "Issue3",
-        "is-sold-out": false,
-        "background": "yellow"
+        "isAvailable": true,
+        "background": "yellow",
+        "cover": "backstagetalks_cover_issue_3",
+        "link": "https://www.bruil.info/product/backstage-talks-3/"
     },
     {
         "id": 2,
         "title": "Issue2",
-        "is-sold-out": false,
-        "background": "blue"
+        "isAvailable": true,
+        "background": "blue",
+        "cover": "backstagetalks_cover2017",
+        "link": "https://www.bruil.info/product/backstage-talks-2/"
     },
     {
         "id": 1,
         "title": "Issue1",
-        "is-sold-out": true,
-        "background": "red"
+        "isAvailable": false,
+        "background": "red",
+        "cover": "backstagetalks_cover2016_n",
+        "link": "https://www.bruil.info/product/backstage-talks-1/"
     }
 ]

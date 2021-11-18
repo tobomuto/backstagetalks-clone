@@ -37,11 +37,14 @@ export default {
 
 <style lang="scss">
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 html {
+  font-family: 'Roboto', sans-serif;
   transition: all 700ms ease 0s;
+  font-size: 18px;
   // overflow-y: scroll;
   // -ms-overflow-style: none;  /* IE and Edge */
-
   height: 100vh;
   // scroll-snap-type: mandatory;
   // scroll-snap-points-y: repeat(100vh);
@@ -50,6 +53,7 @@ html {
   //   display: none;
   // }
   scrollbar-width: none;  /* Firefox */
+  background-color: #00c1b5;
 }
 
 body {

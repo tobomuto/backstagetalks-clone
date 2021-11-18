@@ -7,7 +7,7 @@
       <br><br>
       <a href="/privacy-policy.php">Privacy Policy</a>
     </p>
-    <p class="contact"><a class="link2" href="mailto:info@backstagetalks.com">info@backstagetalks.com</a></p>
+    <p class="contact"><a href="mailto:info@backstagetalks.com">info@backstagetalks.com</a></p>
   </div>
 </template>
 
@@ -23,7 +23,25 @@ export default {
   p {
     margin-top: 30px;
     margin-bottom: 50px;
+    padding: 0 15px;
+    font-size: 18px;
+    font-weight: 700;
     text-align: center;
+    line-height: 25px;
+  }
+  a {
+    font-weight: 700;
+    color: black;
+  }
+  .copyright {
+    font-size: 12px;
+    font-weight: normal;
+    a {
+      font-weight: normal;
+    }
+  }
+  .contact {
+    text-decoration: none;
   }
 }
 

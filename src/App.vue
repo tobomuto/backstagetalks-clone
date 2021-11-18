@@ -5,19 +5,24 @@
 
     <Home/>
 
+    <Footer/>
+
   </div>
 </template>
 
 <script>
 
+import Footer from './components/Footer.vue';
 import Home from './pages/Home.vue'
 import Header from './components/Header.vue'
+
 
 export default {
   name: 'App',
   components: {
     Home,
-    Header
+    Header,
+    Footer
   },
   data() {
     return {

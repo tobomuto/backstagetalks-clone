@@ -1,7 +1,7 @@
 [
     {
         "id": 5,
-        "title": "Issue5",
+        "title": "Issue #5",
         "isAvailable": true,
         "background": "topaz",
         "cover": "backstagetalks_cover_issue_5",
@@ -9,7 +9,7 @@
     },
     {
         "id": 4,
-        "title": "Issue4",
+        "title": "Issue #4",
         "isAvailable": true,
         "background": "orange",
         "cover": "backstagetalks_cover_issue_4",
@@ -17,7 +17,7 @@
     },
     {
         "id": 3,
-        "title": "Issue3",
+        "title": "Issue #3",
         "isAvailable": true,
         "background": "yellow",
         "cover": "backstagetalks_cover_issue_3",
@@ -25,7 +25,7 @@
     },
     {
         "id": 2,
-        "title": "Issue2",
+        "title": "Issue #2",
         "isAvailable": true,
         "background": "blue",
         "cover": "backstagetalks_cover2017",
@@ -33,7 +33,7 @@
     },
     {
         "id": 1,
-        "title": "Issue1",
+        "title": "Issue #1 is sold out.",
         "isAvailable": false,
         "background": "red",
         "cover": "backstagetalks_cover2016_n",

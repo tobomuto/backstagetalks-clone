@@ -51,7 +51,9 @@ export default {
     }
   }
   .contact {
-    text-decoration: none;
+    a {
+      text-decoration: none;
+    }
   }
   .menu {
     list-style: none;
@@ -69,6 +71,7 @@ export default {
     position: fixed;
     bottom: 0;
     width: 100vw;
+    height: 100vh;
   }
   .menu {
     display: block !important;
@@ -90,10 +93,9 @@ export default {
   .contact {
     text-align: right;
     position: absolute;
-    top: -927px;
+    margin-top: 0 !important;
     right: 0;
-    // right: 15px;
-    // top: 20px;
+    top: 20px;
   }
 }
 

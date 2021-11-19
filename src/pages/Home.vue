@@ -1,8 +1,7 @@
 <template>
-  <div>
+  <div class="sections-container">
     <IssueSection v-for="issue in issues" :key="issue.title" :issue="issue"/>
-
-</div>
+  </div>
 </template>
 
 <script>
@@ -53,5 +52,10 @@ export default {
 </script>
 
 <style lang="scss">
+
+.sections-container {
+  position: relative;
+  z-index: 2;
+}
 
 </style>

@@ -30,6 +30,7 @@ export default {
 <style lang="scss" scoped>
 
 #footer {
+  z-index: 1;
   p {
     margin-top: 30px;
     margin-bottom: 50px;

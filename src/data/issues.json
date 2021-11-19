@@ -33,7 +33,7 @@
     },
     {
         "id": 1,
-        "title": "Issue #1 is sold out.",
+        "title": "Issue #1",
         "isAvailable": false,
         "background": "red",
         "cover": "backstagetalks_cover2016_n",

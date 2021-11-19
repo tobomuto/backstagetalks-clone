@@ -8,12 +8,22 @@
       <a href="/privacy-policy.php">Privacy Policy</a>
     </p>
     <p class="contact"><a href="mailto:info@backstagetalks.com">info@backstagetalks.com</a></p>
+    <ul class="menu">
+      <li v-for="issue in issues" :key="issue.id"><a :href="'#' + issue.id">{{ issue.title }}</a></li>
+    </ul>
   </div>
 </template>
 
 <script>
-export default {
 
+import issuesJson from '../data/issues.json';
+
+export default {
+  data() {
+    return {
+      issues: issuesJson
+    }
+  }
 }
 </script>
 
@@ -42,6 +52,48 @@ export default {
   }
   .contact {
     text-decoration: none;
+  }
+  .menu {
+    list-style: none;
+    display: none;
+    line-height: 1.6;
+    a {
+      font-weight: normal;
+      text-decoration: none;
+    }
+  }
+}
+
+@media screen and (min-width:991px) {
+  #footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+  }
+  .menu {
+    display: block !important;
+    position: absolute;
+    right: 50px;
+    right: 15px;
+    bottom: 0;
+    text-align: right;
+  }
+  .description {
+    text-align: left !important;
+    position: absolute;
+    bottom: 0;
+    left: 22px;
+    width: 320px;
+    margin-bottom: 18px !important;
+    padding: 0 !important;
+  }
+  .contact {
+    text-align: right;
+    position: absolute;
+    top: -927px;
+    right: 0;
+    // right: 15px;
+    // top: 20px;
   }
 }
 

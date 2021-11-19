@@ -43,16 +43,11 @@ html {
   font-family: 'Roboto', sans-serif;
   transition: all 700ms ease 0s;
   font-size: 18px;
-  // overflow-y: scroll;
-  // -ms-overflow-style: none;  /* IE and Edge */
   height: 100vh;
   // scroll-snap-type: mandatory;
   // scroll-snap-points-y: repeat(100vh);
   scroll-snap-type: y mandatory;
-  // &::-webkit-scrollbar { /* Hide scrollbar for Chrome, Safari and Opera */
-  //   display: none;
-  // }
-  scrollbar-width: none;  /* Firefox */
+  scroll-behavior: smooth;
   background-color: #00c1b5;
 }
 
@@ -60,6 +55,13 @@ body {
   margin: 0;
 }
 
-
+@media screen and (min-width:991px) {
+  html {
+    &::-webkit-scrollbar { /* Hide scrollbar for Chrome, Safari and Opera */
+      display: none;
+    }
+    scrollbar-width: none;  /* Firefox */
+  }
+}
 
 </style>

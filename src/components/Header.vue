@@ -23,4 +23,15 @@ export default {
   }
 }
 
+@media screen and (min-width:991px) {
+  #header {
+    position: fixed;
+    img {
+      width: 260px !important;
+    }
+  }
+
+}
+
+
 </style>

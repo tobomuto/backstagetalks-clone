@@ -1,8 +1,8 @@
 <template>
-  <section>
+  <section :id="issue.id">
     <div class="cover">
       <img :src="require(`../assets/covers/${issue.cover}.png`)"  alt="">
-      <p class="cover_title">{{ issue.title }}</p>
+      <p class="cover_title">{{ issue.title }} <span v-if="issue.isAvailable == false"> is sold out.</span></p>
       <p class="cover_link" v-if="issue.isAvailable == true">
         <a :href="issue.link">BUY HERE</a>
       </p>
@@ -25,15 +25,14 @@ export default {
 <style lang="scss" scoped>
 
 section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   height: 812px;
-  scroll-snap-align: start;
+  padding-top: 15px;
+  // scroll-snap-align: start;
   .cover {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    transform: translateY(-50%);
+    top: 50%;
+    margin-top: 50vh;
+    text-align: center;
     img {
       width: 80%;
       max-width: 420px;
@@ -56,7 +55,12 @@ section {
       color: white;
     }
   }
+}
 
+@media screen and (min-width:767px) {
+  section {
+    scroll-snap-align: start;
+  }
 }
 
 </style>

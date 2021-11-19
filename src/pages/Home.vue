@@ -56,6 +56,7 @@ export default {
 .sections-container {
   position: relative;
   z-index: 2;
+  margin: 0px 20%;
 }
 
 </style>

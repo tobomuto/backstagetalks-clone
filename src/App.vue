@@ -55,7 +55,12 @@ body {
   margin: 0;
 }
 
+
+
 @media screen and (min-width:991px) {
+  #app {
+    padding-bottom: 140px; /* Correcting Chrome shitty behaviour that don't include margin-bottom at the end of the page. */
+  }
   html {
     &::-webkit-scrollbar { /* Hide scrollbar for Chrome, Safari and Opera */
       display: none;

@@ -31,7 +31,7 @@ section {
   .cover {
     transform: translateY(-50%);
     top: 50%;
-    margin-top: 50vh;
+    margin-top: 48vh;
     text-align: center;
     img {
       width: 80%;

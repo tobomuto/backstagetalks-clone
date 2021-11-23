@@ -1,24 +1,18 @@
 # backstagetalks-clone
 
-## Project setup
-```
-npm install
-```
+This is my take on [cloning Backstage Talks website](https://www.frontendpractice.com/project/backstage-talks)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### Links
 
-### Compiles and minifies for production
-```
-npm run build
-```
+- Live Site URL: [GitHub Pages](https://tobomuto.github.io/rest-countries/)
 
-### Lints and fixes files
-```
-npm run lint
-```
+### Built with
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- [Vue.js](https://vuejs.org/) - JS library
+- SCSS
+- Flexbox
+- Mobile-first workflow
+
+## Author
+
+- Website - [Thomas Bouvier](https://tombvr.fr)

@@ -4,7 +4,7 @@ This is my take on [cloning Backstage Talks website](https://www.frontendpractic
 
 ### Links
 
-- Live Site URL: [GitHub Pages](https://tobomuto.github.io/rest-countries/)
+- Live Site URL: [GitHub Pages](https://tobomuto.github.io/backstagetalks-clone/)
 
 ### Built with
 
